@@ -1,0 +1,60 @@
+{
+  "aggressive": false,
+  "bonemeal": true,
+  "description": {
+    "default": "Much less ugly than the RL version.",
+    "translations": {}
+  },
+  "enabled": true,
+  "grass_drop_chance": 0.0,
+  "growth_bonus": 0.25,
+  "growth_chance": 0.95,
+  "id": "dandelion_plant",
+  "path": "vanilla/plants/dandelion_plant.json",
+  "plant_name": "Dandelion",
+  "products": {
+    "products": [
+      {
+        "chance": 1.0,
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "item": "minecraft:yellow_flower",
+        "max": 3,
+        "meta": 0,
+        "min": 1,
+        "required": true,
+        "tags": "",
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "bases": [],
+    "max_light": 16,
+    "min_light": 10,
+    "nearby": {},
+    "soils": [
+      "farmland_soil"
+    ]
+  },
+  "seed_items": [],
+  "seed_name": "Dandelion Seeds",
+  "spawn_chance": 0.0,
+  "spread_chance": 0.1,
+  "texture": {
+    "plant_textures": [
+      "agricraft:blocks/cropDandelion1",
+      "agricraft:blocks/cropDandelion1",
+      "agricraft:blocks/cropDandelion1",
+      "agricraft:blocks/cropDandelion2",
+      "agricraft:blocks/cropDandelion2",
+      "agricraft:blocks/cropDandelion3",
+      "agricraft:blocks/cropDandelion3",
+      "agricraft:blocks/cropDandelion4"
+    ],
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedDandelion"
+  },
+  "tier": 1,
+  "weedable": false
+}

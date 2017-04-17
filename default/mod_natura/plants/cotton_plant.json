@@ -1,0 +1,71 @@
+{
+  "aggressive": false,
+  "bonemeal": true,
+  "description": {
+    "default": "The source of all string and wool. [citation needed]",
+    "translations": {}
+  },
+  "enabled": true,
+  "grass_drop_chance": 0.0,
+  "growth_bonus": 0.25,
+  "growth_chance": 0.95,
+  "id": "cotton_natura",
+  "path": "natura/plants/barley_plant.json",
+  "plant_name": "Cotton",
+  "products": {
+    "products": [
+      {
+        "chance": 1.0,
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "item": "natura:materials",
+        "max": 3,
+        "meta": 3,
+        "min": 1,
+        "required": true,
+        "tags": "",
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "bases": [],
+    "max_light": 16,
+    "min_light": 10,
+    "nearby": {},
+    "soils": [
+      "farmland_soil"
+    ]
+  },
+  "seed_items": [
+    {
+      "item": "natura:overworld_seeds",
+      "meta": 1,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "seed_name": "Cotton Seeds",
+  "spawn_chance": 0.0,
+  "spread_chance": 0.1,
+  "texture": {
+    "plant_textures": [
+      "natura:blocks/crops/cotton/cotton_stage_0",
+      "natura:blocks/crops/cotton/cotton_stage_0",
+      "natura:blocks/crops/cotton/cotton_stage_0",
+      "natura:blocks/crops/cotton/cotton_stage_1",
+      "natura:blocks/crops/cotton/cotton_stage_1",
+      "natura:blocks/crops/cotton/cotton_stage_2",
+      "natura:blocks/crops/cotton/cotton_stage_2",
+      "natura:blocks/crops/cotton/cotton_stage_3"
+    ],
+    "render_type": "hash",
+    "seed_texture": "natura:items/seeds/cotton_seeds"
+  },
+  "tier": 1,
+  "weedable": false
+}

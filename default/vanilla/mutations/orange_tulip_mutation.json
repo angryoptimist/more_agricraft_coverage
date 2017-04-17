@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/orange_tulip_mutation.json",
+  "enabled": true,
+  "chance": 0.25,
+  "child": "orange_tulip_plant",
+  "parent1": "orchid_plant",
+  "parent2": "daisy_plant"
+}

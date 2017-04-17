@@ -1,0 +1,60 @@
+{
+  "aggressive": false,
+  "bonemeal": true,
+  "description": {
+    "default": "\"Hi! I'm Daisy!\"",
+    "translations": {}
+  },
+  "enabled": true,
+  "grass_drop_chance": 0.0,
+  "growth_bonus": 0.25,
+  "growth_chance": 0.95,
+  "id": "daisy_plant",
+  "path": "vanilla/plants/daisy_plant.json",
+  "plant_name": "Daisy",
+  "products": {
+    "products": [
+      {
+        "chance": 1.0,
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "item": "minecraft:red_flower",
+        "max": 3,
+        "meta": 8,
+        "min": 1,
+        "required": true,
+        "tags": "",
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "bases": [],
+    "max_light": 16,
+    "min_light": 10,
+    "nearby": {},
+    "soils": [
+      "farmland_soil"
+    ]
+  },
+  "seed_items": [],
+  "seed_name": "Daisy Seeds",
+  "spawn_chance": 0.0,
+  "spread_chance": 0.1,
+  "texture": {
+    "plant_textures": [
+      "agricraft:blocks/cropDaisy1",
+      "agricraft:blocks/cropDaisy1",
+      "agricraft:blocks/cropDaisy1",
+      "agricraft:blocks/cropDaisy2",
+      "agricraft:blocks/cropDaisy2",
+      "agricraft:blocks/cropDaisy3",
+      "agricraft:blocks/cropDaisy3",
+      "agricraft:blocks/cropDaisy4"
+    ],
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedDaisy"
+  },
+  "tier": 1,
+  "weedable": false
+}
